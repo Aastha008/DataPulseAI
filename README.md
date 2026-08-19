@@ -78,7 +78,3 @@ docker-compose up --build
 
 ---
 
-## Resume Highlights
-- *Architected **DataPulse Analytics**, an autonomous product analytics platform using **FastAPI, DuckDB, SciPy, and Streamlit**, automating A/B hypothesis testing, SRM detection, and funnel drop-off analysis on 547K+ transaction records.*
-- *Engineered a self-healing Text-to-SQL feedback loop with DuckDB schema reflection, achieving zero-error query execution across production benchmark test suites.*
-- *Implemented an automated evaluation pipeline (`evals/test_benchmarks.py`) measuring SQL validity, statistical precision, and anti-hallucination guardrails.*
