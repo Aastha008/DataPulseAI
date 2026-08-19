@@ -1,0 +1,14 @@
+﻿version: '3.8'
+
+services:
+  datapulse-ai:
+    build: .
+    ports:
+      - "8501:8501"
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DEFAULT_PROVIDER=gemini
+    volumes:
+      - ./backend/app/database:/app/backend/app/database

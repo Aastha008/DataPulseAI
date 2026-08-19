@@ -1,0 +1,32 @@
+﻿[
+  {
+    "id": "tc_01",
+    "question": "Evaluate A/B test for exp_checkout_redesign_101 with 95% CI and lift",
+    "expected_intent": "AB_TEST",
+    "expected_table": "experiments"
+  },
+  {
+    "id": "tc_02",
+    "question": "Check exp_ai_search_rank_103 for Sample Ratio Mismatch (SRM)",
+    "expected_intent": "AB_TEST",
+    "expected_table": "experiments"
+  },
+  {
+    "id": "tc_03",
+    "question": "Why did checkout conversion drop in mobile devices during Q3?",
+    "expected_intent": "ROOT_CAUSE",
+    "expected_table": "events"
+  },
+  {
+    "id": "tc_04",
+    "question": "Analyze the conversion funnel drop-off across all stages",
+    "expected_intent": "FUNNEL",
+    "expected_table": "events"
+  },
+  {
+    "id": "tc_05",
+    "question": "Rank acquisition channels by total revenue and ARPU",
+    "expected_intent": "GENERAL",
+    "expected_table": "users"
+  }
+]
